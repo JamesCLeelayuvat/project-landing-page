@@ -132,6 +132,7 @@ table {
 }
 
 #nav-bar {
+    width: 100%;
     display: flex;
     flex-direction: row;
     background-color: aqua;
@@ -144,3 +145,34 @@ a {
 .push {
     margin-left: auto;
 }
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#header-main {
+    width: 80%;
+    background-color: royalblue;
+    display: flex;
+}
+
+#header-main-text {
+    width: 50%;
+}
+
+img {
+    width: 50%;
+}
+
+#main-1 {
+    text-align: center;
+}
+
+#information-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box {}
